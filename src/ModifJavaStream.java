@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ModifJavaStream {
     public static void main(String[] args) {
         try {
-            OutputStream os = new FileOutputStream("D:/Coolyah/Kelas 2A Sem 4/Pemrograman Jaringan/praktek2.txt", true);
+            OutputStream os = new FileOutputStream("D:\\Semester 4\\Pemograman Jaringan\\javastream\\src", true);
             Scanner s = new Scanner(System.in);
             System.out.println("Masukkan kalimat =");
             String data = s.nextLine();
